@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+
+table {
+  border-collapse: collapse;
+  border-spacing: 2;
+  width: 75%;
+  border: 1px solid #ddd;
+  
+}
+
+a {
+	text-decoration: none;
+}
+
+th {
+  text-align: center;
+  padding: 10px;  
+  background: #99c2ff;
+}
+
+td {
+  text-align: left;
+  padding: 10px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input[type= submit] {
+	border-radius: 4px;
+	background : #1aa3ff;
+} 
